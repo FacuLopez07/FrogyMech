@@ -1,0 +1,24 @@
+INDEX{
+    
+    PROXIMAS TASKS{
+        Hay que ver que poner en lugar de los blogs.
+        Hacer un login para la Oficina.
+    }
+    
+    UNA VEZ FUNCIONE TODO{
+        Hay que ver si se puede sacar lo relacionado con flaticon porq no lo estamos usando (lib/flaticon).
+    }
+
+    INTERFACES Nuestras{
+        Seguimiento == testimonial
+        Usuarios{
+            Oficina == contact
+            Taller == contact   {¿Deberiamos hacer una busqueda para que encuentre el auto de cierto cliente o 
+                                que cargue manualmente (de vuelta) los datos del cliente?}
+
+                                {Hacemos que lo busque con el sist. de seguimiento y cuando lo encuentre que le 
+                                aparezca un campo de texto para anotar las reparaciones que va haciendo}
+        }
+        Contacto == contact
+    }
+}
